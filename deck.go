@@ -28,7 +28,7 @@ func newDeck() deck {
 	return cards
 }
 
-// receiver on a function
+// receiver on a functions
 // any variable of type 'deck' gets access to the print method
 func (d deck) print() {
 	for i, card := range d {
